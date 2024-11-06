@@ -29,7 +29,7 @@
     "**/*.ts",
     "**/*.tsx",
     "src/app/dashboard/users/[id]/page.jsx"
-  ],
+, "src/app/dashboard/settings/page.jsx", "src/app/dashboard/teams/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
