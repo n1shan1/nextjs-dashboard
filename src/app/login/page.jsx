@@ -1,10 +1,11 @@
+import { authenticate } from "../lib/actions";
 import styles from "../ui/login/login.module.css";
 
 export default function Login() {
   const isLoggedIn = false;
   return (
     <div className={styles.container}>
-      <form action="" className={styles.form}>
+      <form action={authenticate} className={styles.form}>
         <div className={styles.titleText}>Login</div>
         <input
           type="text"

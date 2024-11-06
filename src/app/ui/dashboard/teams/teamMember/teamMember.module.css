@@ -1,0 +1,37 @@
+/* teamMember.module.css */
+.memberCard {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.memberCard:hover {
+  transform: translateY(-5px);
+}
+
+.iconContainer {
+  background-color: var(--bgSoft);
+  padding: 0.75rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.role {
+  font-size: 1rem;
+  color: var(--textSoft);
+}

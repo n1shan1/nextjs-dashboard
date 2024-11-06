@@ -1,0 +1,32 @@
+.summaryContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.summaryItem {
+  flex: 1;
+  background: var(--bgSoft);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.summaryItem:hover {
+  transform: translateY(-5px);
+}
+
+.summaryItem h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--textSoft);
+  margin-bottom: 8px;
+}
+
+.summaryItem p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text);
+}

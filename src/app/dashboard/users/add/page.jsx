@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "../../../ui/dashboard/users/addUser/addUser.module.css";
-
+import { addUser } from "../../../lib/actions";
 const Page = () => {
   return (
     <div className={styles.container}>
-      <form action="" className={styles.form}>
+      <form action={addUser} className={styles.form}>
         <input
           type="text"
           id=""

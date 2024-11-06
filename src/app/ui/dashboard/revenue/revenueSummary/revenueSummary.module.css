@@ -1,0 +1,40 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.revenueAmount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.amount {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primaryColor);
+}
+
+.growth {
+  font-size: 1rem;
+  color: var(--textSoft);
+}
+
+.details {
+  font-size: 1rem;
+  color: var(--textSoft);
+  margin-top: 10px;
+}

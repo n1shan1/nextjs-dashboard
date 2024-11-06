@@ -1,0 +1,54 @@
+.listContainer {
+  background: var(--bg);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listContainer h2 {
+  font-size: 1.8rem;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.table th {
+  background-color: #f4f6f9;
+  color: #7f8c8d;
+  font-weight: 600;
+}
+
+.table tr:hover {
+  background-color: #f9fafc;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.pending {
+  color: #e67e22;
+  background: #fdebd0;
+}
+
+.done {
+  color: #27ae60;
+  background: #eafaf1;
+}
+
+.cancelled {
+  color: #e74c3c;
+  background: #fde2e2;
+}

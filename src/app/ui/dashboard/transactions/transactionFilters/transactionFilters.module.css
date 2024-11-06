@@ -1,0 +1,63 @@
+.filtersContainer {
+  background: var(--bg);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.headerText{
+  color: var(--text);
+  font-size: large;
+  font-weight: bold;
+}
+.filtersContainer h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--bgSoft);
+}
+
+.filterItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterItem label {
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.filterItem input,
+.filterItem select {
+  padding: 8px;
+  border: 0px;
+  background-color: var(--bgSoft);
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  color: var(--text);
+  transition: border-color 0.2s ease;
+}
+
+.filterItem input:focus,
+.filterItem select:focus {
+  border-color: #ffffff;
+}
+
+.filterButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filterButton:hover {
+  background-color: #2980b9;
+}

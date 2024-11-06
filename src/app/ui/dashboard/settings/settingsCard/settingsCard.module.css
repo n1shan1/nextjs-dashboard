@@ -1,0 +1,19 @@
+/* settingsCard.module.css */
+.card {
+  background-color: var(--bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  color: var(--text);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+}

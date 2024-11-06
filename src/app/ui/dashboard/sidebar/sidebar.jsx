@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./sidebar.module.css";
 import {
@@ -18,7 +19,8 @@ import Image from "next/image";
 
 const menuItems = [
   {
-    title: "Pages",
+    number: 0,
+    title: "Options",
     list: [
       {
         title: "Dashboard",
@@ -43,6 +45,7 @@ const menuItems = [
     ],
   },
   {
+    number: 1,
     title: "Analytics",
     list: [
       {
@@ -63,7 +66,8 @@ const menuItems = [
     ],
   },
   {
-    title: "User",
+    number: 2,
+    title: "Users",
     list: [
       {
         title: "Settings",
@@ -79,7 +83,11 @@ const menuItems = [
   },
 ];
 
-const Sidebar = () => {
+const Sidebar = async () => {
+  const handleLogout = () => {
+    window.confirm("Are you sure you want to log out?");
+  };
+
   return (
     <div className={styles.container}>
       <div className="styles.user">
@@ -97,7 +105,7 @@ const Sidebar = () => {
       </div>
       <ul className={styles.list}>
         {menuItems.map((item) => (
-          <li key={item.title}>
+          <li key={item.number}>
             <span className={styles.cat}>{item.title}</span>
             {item.list.map((itm) => (
               <MenuLink item={itm} key={item.title} />
@@ -105,7 +113,7 @@ const Sidebar = () => {
           </li>
         ))}
       </ul>
-      <button className={styles.logout}>
+      <button className={styles.logout} onClick={handleLogout}>
         <MdLogout />
         Logout
       </button>

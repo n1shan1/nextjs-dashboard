@@ -1,0 +1,19 @@
+/* faq.module.css */
+.faqContainer {
+  margin-top: 1.5rem;
+}
+
+.faqItem {
+  margin-bottom: 1.5rem;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.answer {
+  font-size: 1rem;
+  color: var(--textSoft);
+  margin-top: 0.5rem;
+}

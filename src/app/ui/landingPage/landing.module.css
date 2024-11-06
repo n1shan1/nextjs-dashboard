@@ -1,0 +1,67 @@
+/* landing.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: var(--bg);
+  font-family: Arial, sans-serif;
+  padding: 0 2rem;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+}
+
+.headingText {
+  font-size: 1.5rem;
+  color:var(--textSoft);
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.redirectButton {
+  background-color: rgb(86, 86, 255);
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.redirectButton:hover {
+  background-color: #78beff;
+}
+
+.footer {
+  margin-top: 3rem;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.footerContent {
+  max-width: 400px;
+  line-height: 1.5;
+}

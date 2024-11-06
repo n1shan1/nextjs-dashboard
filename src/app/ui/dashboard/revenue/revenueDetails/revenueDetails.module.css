@@ -1,0 +1,36 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  margin: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.category {
+  font-weight: 600;
+}
+
+.amount {
+  font-weight: 500;
+  color: var(--primaryColor);
+}

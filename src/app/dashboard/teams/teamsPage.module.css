@@ -1,0 +1,22 @@
+/* teamsPage.module.css */
+.container {
+  padding: 2rem;
+  background-color: var(--bgSoft);
+  border-radius: 8px;
+  margin: 20px;
+  color: var(--text);
+}
+
+.pageTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: var(--text);
+}
+
+.teamList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
